@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/getwords');
+        const response = await axios.get('https://words-gre.onrender.com/api/getwords');
         
         setCardData(response.data);
         console.log(cData);
