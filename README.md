@@ -10,9 +10,10 @@ This project is currently in its initial stage, offering basic functionality for
 Upcoming Features
 In the upcoming days, the following features will be added to enhance the GRE Vocabulary Builder:
 
-Login Page: Implement a login page for users to authenticate and access personalized features.
-User Management: Create functionality for creating, updating, and managing user accounts.
-Quiz Pages: Introduce interactive quizzes to test users' knowledge of GRE vocabulary.
-Search and Filter: Add functionality to search for specific words and filter by categories or difficulty levels.
-Progress Tracking: Enable users to track their progress and performance over time.
+**UI Enhancement**: Enhance the user interface to improve usability and aesthetics, providing a more enjoyable learning experience.
+**Login Page**: Implement a login page for users to authenticate and access personalized features.
+**User Management**: Create functionality for creating, updating, and managing user accounts.
+**Quiz Pages**: Introduce interactive quizzes to test users' knowledge of GRE vocabulary.
+**Search and Filter**: Add functionality to search for specific words and filter by categories or difficulty levels.
+**Progress Tracking**: Enable users to track their progress and performance over time.
 Stay tuned for updates as we continue to develop and improve the GRE Vocabulary Builder App
