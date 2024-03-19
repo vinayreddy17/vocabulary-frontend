@@ -36,7 +36,7 @@ function App() {
     <div className="card-grid">
       {currentPosts.map((card, index) => (
         <Card key={index} frontContent={card.Word} backContent={<Backside meaning={card.Meaning || card.Meanings} synonyms={card.Synonyms} examples={card.Examples}/>} />
-      
+       ))}
   </div>
       <div className="pagination-container">
      <Pagination
