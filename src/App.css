@@ -1,9 +1,15 @@
-
- 
 .App {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px; 
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
 }
 
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid with min width of 250px */
+  gap: 20px; /* Gap between grid items */
+}
+
+.pagination-container {
+  margin-top: 20px; /* Add some space between cards and pagination */
+}
