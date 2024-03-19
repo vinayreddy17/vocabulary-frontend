@@ -1,15 +1,50 @@
+
 .App {
   display: flex;
-  flex-direction: column; /* Stack children vertically */
-  align-items: center; /* Center children horizontally */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid with min width of 250px */
-  gap: 20px; /* Gap between grid items */
+  grid-gap: 20px;
+  margin-bottom: 20px;
 }
 
+
+@media only screen and (min-width: 1200px) {
+  .card-grid {
+    grid-template-columns: repeat(5, 1fr); 
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
+
+
 .pagination-container {
-  margin-top: 20px; /* Add some space between cards and pagination */
+  margin-top: 20px; 
 }
