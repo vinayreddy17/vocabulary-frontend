@@ -33,9 +33,11 @@ function App() {
   
   return (
     <div className="App">
+    <div>
       {currentPosts.map((card, index) => (
         <Card key={index} frontContent={card.Word} backContent={<Backside meaning={card.Meaning || card.Meanings} synonyms={card.Synonyms} examples={card.Examples}/>} />
-      ))}
+      
+  </div>
      <Pagination
                 totalPosts={cData.length}
                 postsPerPage={postsPerPage}
