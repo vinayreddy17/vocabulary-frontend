@@ -9,7 +9,7 @@ function App() {
 
   const [cData, setCardData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage, setPostsPerPage] = useState(8);
+    const [postsPerPage, setPostsPerPage] = useState(12);
 
   useEffect(() => {
     const fetchData = async () => {
